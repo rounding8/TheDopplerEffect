@@ -1,5 +1,8 @@
 # The Doppler Effect
 
+Version 1.0
+
+
 ## Description
 
 A simple simulation using HTML5 Canvas, which exaggerates how a star changes color as it moves towards and away from an observer.
