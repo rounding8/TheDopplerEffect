@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Doppler Effect HTML5 Canvas Demo by Raven N. Allan</title>
+    <link rel="stylesheet" href="./assets/css/doppler.css">
+  </head>
+  <body>
+    <table id="content">
+      <tr align="center">
+        <td>
+          <h2><a href="https://github.com/geekindapink/TheDopplerEffect" target="_blank">The Doppler Effect</a></h2>
+          <h4>by Raven N. Allan</h4>
+
+          <div id="star">
+            <!-- ORIGINAL IMAGE TO DRAW ONTO HTML5 CANVAS, HIDDEN/PRELOADED FOR INSTANT CANVASING -->
+            <img id="starGold" src="./assets/images/star.png" alt="Gold Star Image">
+            
+            <!-- NEW IMAGES DRAWN USING #starGold's CANVAS IMAGE NON-TRANSPARENT PIXELS; I.E. USED FOR BLUE & RED GRADIENT-LIKE OVERLAYS -->
+            <img id="starBlue" alt="Blue Star Image">
+            <img id="starRed" alt="Red Star Image">
+
+            <!-- HIDDEN HTML5 CANVAS FOR DRAWING #starGold ONTO, AND COPYING/MANIPULATING ITS PIXELS -->
+            <canvas id="starCanvas"></canvas>
+          </div>
+
+          <table id="menu">
+            <tr align="center">
+              <td width="50%">Velocity (km/s) <input id="velocityInput" name="velocityInput" type="number" min="-100" max="10000" value="0.0"></input></td>
+              <td width="50%"><input id="velocitySlider" name="velocitySlider" type="range" step="0.1"></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <script src="http://www.rounding8.com/scripts/jquery.js"></script>
+    <script src="./assets/scripts/doppler.min.js"></script>
+  </body>
+</html>
