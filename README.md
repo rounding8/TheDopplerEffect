@@ -10,7 +10,7 @@ A simple simulation using HTML5 Canvas, which exaggerates how a star changes col
 
 ## Specifications
 
-<img width="50%" height="auto" src="http://www.rounding8.com/CV/Demos/TheDopplerEffect/assets/images/specs.jpg">
+<img width="50%" height="auto" src="http://roundingeight.com/Demos/TheDopplerEffect/assets/images/star.png">
 
 	1. The star color should change based on the value of the velocity input, where:
 	
